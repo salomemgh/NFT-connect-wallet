@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #2B2B2B !important;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: Space Mono;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+/* Navbar Style */
+.nav-link{
+    color: #FFF;
+    font-family: Work Sans !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+}
+@media screen and (max-width: 768px) {
+    .marketplace{
+        margin-top: 20px;
+    }
+}
+.button_navigation{
+    border: none;
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Wallet section text style, button style 'mobile,desktop' */
+.h2_connect_wallet, .h2_connect_wallet_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h2_connect_wallet_mob{
+    font-size: 38px !important;
+}
+.p_Choose_wallet, .p_Choose_wallet_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+.p_Choose_wallet_mob{
+    font-size: 16px !important;
+}
+.button_metamask, .button_wallet, .button_coinbase{
+    width: 320px;
+    height: 72px;
+    border-radius: 20px;
+    border: 1px solid var(--Call-to-Action, #A259FF);
+    background: var(--Background---Secondary, #3B3B3B);
+    color: var(--White, #FFF);
+    text-align: start;
+    padding-left: 40px;
+}
+@media screen and (max-width: 768px ) {
+    .button_metamask, .button_wallet, .button_coinbase{
+        height: 60px !important;
+    }
+    .img_meta{
+        width: 32px !important;
+        height: 32px !important;
+    }
+}
+.a_metamask, .a_connect, .a_coinbase{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer section style */
+.row_space{
+    padding-top: 50px;
+}
+.footer_header{
+    color: #FFF;
+
+font-family: Space Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+.footer_text{
+    color: #CCC;
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.a_text{
+    line-height: 40px;
+    text-decoration: none;
+}
+.hr_footer{
+    color: hsla(60, 0%, 52%, 1) !important;
+}
+.copyR_footer{
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button_subscribe{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.input_mail{
+    width: 315px;
+    height: 46px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button_subscribe_mobile{
+    width: 315px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background: var(--call-to-action, #A259FF);
+}
+.email1{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button3, .button3_mobile{
+    width: 211px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background: var(--call-to-action, #A259FF);
+    position: absolute;
+    margin-right: 40px;
+}
+.button3_mobile{
+    margin-right: 10px !important;
+}
+
+.button_subscribe{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
